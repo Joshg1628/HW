@@ -37,23 +37,31 @@ a:visited {
     color: #e2e8e3;
 }
 
+.menu-items {
+    text-align: center; 
+}
+
 .menu-items img {
 
     opacity: 0.8;
 }
 
+#main, #dessert {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    list-style: none;
+    padding: 0;
+    margin: 0 20px;
+}
+
+
 #main {
     text-align: left;
-    top: 100px;
-    position: relative;
-    list-style: none;
 }
 
 #dessert {
     text-align: right;
-    bottom: 485px;
-    position: relative;
-    list-style: none;
 }
 
 img,
