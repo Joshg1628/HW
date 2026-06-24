@@ -6,10 +6,14 @@ body {
 }
 
 h1 {
+    font-size: 3em;
+    border: 5px solid #abb8cc;
 
-    background-color: rgb(147, 99, 41);
-    color: #0d3d8b;
-    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 40px;
+    color: rgb(57, 97, 160);
+    margin-top: 30px;
+
 }
 
 a {
@@ -18,8 +22,7 @@ a {
     padding: 10px 20px;
     background-color: #0d3d8b;
     color: white;
-    border-radius: 5px;
-    text-align: top;
+
     position: absolute;
     top: 65px;
     right: 30px;
@@ -31,13 +34,30 @@ a:hover {
 }
 
 a:visited {
-    color: #0d8b35;
+    color: #e2e8e3;
 }
 
-.menu-items {
-   
+.menu-items img {
+
+    opacity: 0.8;
 }
 
 #main {
-    
+    text-align: left;
+    top: 100px;
+    position: relative;
+    list-style: none;
+}
+
+#dessert {
+    text-align: right;
+    bottom: 485px;
+    position: relative;
+    list-style: none;
+}
+
+img,
+h1,
+a {
+    border-radius: 10px;
 }
