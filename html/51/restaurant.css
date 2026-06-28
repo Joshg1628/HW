@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #e4d4b6;
-    color: #333;
+    background-color: #Fdf8f5;
+    color: #2b1f19;
     text-align: center;
 
 }
@@ -12,18 +12,19 @@ h1 {
 
     display: inline-block;
     padding: 10px 40px;
-    
-    color: rgb(57, 97, 160);
+
+    color: #78290f;
+    border: 5px solid #78290f;
     margin-top: 30px;
     letter-spacing: 2px;
 }
 
 h1:hover {
-opacity: 0.8;
+    opacity: 0.8;
 }
 
 h2 {
-    color: #114020;
+    color: #3e2723;
     margin-top: 18px;
     rotate: -8deg;
     text-shadow: 2px 2px 4px rgba(145, 40, 40, 0.5);
@@ -33,10 +34,9 @@ a {
     display: inline-block;
     text-decoration: none;
     padding: 10px 20px;
-    background-color: #0d3d8b;
+    background-color: #78290f;
     color: white;
-   
-    
+
     position: absolute;
     top: 86px;
     right: 46px;
@@ -49,7 +49,7 @@ img {
 
 }
 
-.food-img:hover{
+.food-img:hover {
     scale: 1.05;
 }
 
@@ -59,7 +59,7 @@ h2:hover {
 }
 
 a:hover {
-    color: aqua;
+    color: #Fdf8f5;
     text-decoration: underline;
     cursor: pointer;
 }
@@ -83,17 +83,20 @@ a:visited {
     box-sizing: border-box;
 }
 
-img, h1, a{
+img,
+h1,
+a {
     border-radius: 10px;
 }
 
 span {
     font-style: italic;
 }
+
 .audio h3 {
     font-size: 1.2em;
     margin-bottom: 10px;
     color: #41140c;
-    
-    
+
+
 }
