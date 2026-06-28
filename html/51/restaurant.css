@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e4d4b6;
+    color: #333;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 3em;
+    border: 5px solid #abb8cc;
+
+    display: inline-block;
+    padding: 10px 40px;
+    
+    color: rgb(57, 97, 160);
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+h1:hover {
+opacity: 0.8;
+}
+
+h2 {
+    color: #114020;
+    margin-top: 18px;
+    rotate: -8deg;
+    text-shadow: 2px 2px 4px rgba(145, 40, 40, 0.5);
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #0d3d8b;
+    color: white;
+   
+    
+    position: absolute;
+    top: 86px;
+    right: 46px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    margin: 20px;
+
+}
+
+.food-img:hover{
+    scale: 1.05;
+}
+
+h2:hover {
+    color: #e2e8e3;
+    text-shadow: 2px 2px 4px rgba(145, 40, 40, 0.5);
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:visited {
+    color: #e2e8e3;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    z-index: -1;
+    margin: 20px;
+    opacity: 0.45;
+    object-fit: cover;
+    border: 3px solid #0d3d8b;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+img, h1, a{
+    border-radius: 10px;
+}
+
+span {
+    font-style: italic;
+}
+.audio h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #41140c;
+    
+    
+}
