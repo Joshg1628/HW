@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #Fdf8f5;
+    color: #2b1f19;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    border: 5px solid #abb8cc;
+    position: static;
+    display: inline-block;
+    padding: 10px 40px;
+    color: #78290f;
+    border: 5px solid #78290f;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+h1:hover {
+    opacity: 0.8;
+}
+
+
+
+h2:hover {
+    color: #e2e8e3;
+    text-shadow: 2px 2px 4px rgba(145, 40, 40, 0.5);
+}
+
+span {
+    font-style: italic;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #78290f;
+    color: white;
+    cursor: none;
+}
+
+a:hover {
+    color: #Fdf8f5;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:visited {
+    color: #e2e8e3;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    margin: 20px;
+}
+
+img,
+h1,
+a {
+    border-radius: 10px;
+}
+
+nav {
+    position: absolute;
+    top: 86px;
+    right: 46px;
+    display: flex;
+    gap: 15px;
+}
+
+nav a,
+#about-us-link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #78290f;
+    color: white;
+    border-radius: 10px;
+
+}
+
+p::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #78290f;
+}
+
+h1::first-line {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #78290f;
+    text-decoration: double underline;
+}
+
+.food-img:hover {
+    scale: 1.05;
+}
+
+.audio h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #41140c;
+}
+
+
+
+
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    z-index: -1;
+    margin: 20px;
+    opacity: 0.45;
+    object-fit: cover;
+    border: 3px solid #0d3d8b;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#about-us {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 1.1em;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    color: #0a0403;
+}
+
+#about-us-link:hover {
+    color: #Fdf8f5;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+@media(max-width: 600px) {
+    img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+span[id="italic-word"] {
+    color: #78290f;
+}
+
+.hours {
+    margin: 40px auto;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.hours table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fdf8f5;
+    border: 2px solid #78290f;
+    font-family: Arial, sans-serif;
+}
+
+.hours th,
+.hours td {
+    padding: 12px;
+    border: 1px solid #78290f;
+    color: #2b1f19;
+}
+
+.hours th {
+    background-color: #78290f;
+    color: white;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+#hours>h3 {
+    color: #78290f;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    margin-top: 30px;
+    border: 4px solid #78290f;
+    border-style: dashed;
+    padding: 10px;
+    display: inline-block;
+}
+
+tr:nth-child(4) {
+    background-color: rgb(210, 197, 200);
+}
+
+h1+h2 {
+    color: #3e2723;
+    margin-top: 18px;
+    rotate: -8deg;
+    text-shadow: 2px 2px 4px rgba(145, 40, 40, 0.5);
+}
+
+tr:hover {
+    background-color: #f0e6e6;
+}
+
+#reservations-link {
+    position: absolute;
+    top: 86px;
+    left: 58px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #78290f;
+    color: white;
+    border-radius: 10px;
+}
+
+#reservations-link:hover {
+    color: #Fdf8f5;
+    text-decoration: underline;
+    cursor: pointer;
+}
