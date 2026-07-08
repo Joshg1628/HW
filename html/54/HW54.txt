@@ -1,0 +1,59 @@
+HW54:
+
+1. justify-content:center;
+
+2. justify-content:space-around;
+
+3. justify-content: space-between;
+
+4. align-items:flex-end;
+
+5. align-items: center;
+   justify-content: center;
+
+6. align-items: end;
+   justify-content: space-around;
+
+7. flex-direction: row-reverse;
+
+8. flex-direction: column;
+
+9. flex-direction: row-reverse;
+   justify-content: left;
+
+10. flex-direction: column;
+    justify-content: end;
+
+11. flex-direction: column-reverse;
+    justify-content: space-between;
+
+12. flex-direction: row-reverse;
+    align-items: end;
+    justify-content: center;
+
+13. order: 1;
+
+14. order: -1;
+
+15. align-self: end;
+
+16. align-self:end;
+    order: 1;
+
+17. flex-wrap: wrap;
+
+18. flex-direction: column;
+    flex-wrap: wrap;
+
+19. flex-flow: column wrap;
+
+20. align-content: start;
+
+21. align-content: end;
+
+22. flex-direction: column-reverse;
+    align-content: center;
+
+24. flex-flow: column-reverse wrap-reverse;
+    justify-content: center;
+    align-content: space-between;
