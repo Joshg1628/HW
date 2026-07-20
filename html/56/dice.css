@@ -1,0 +1,90 @@
+.die {
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        margin: 1em;
+        padding: 1em;
+        border-radius: 8px;
+        display: grid;
+
+        grid-template-areas:
+            "a b c"
+            "d e f"
+            "g h i";
+        }
+
+.dot {
+       
+        background-color: black;
+        border-radius: 50px
+       
+        }
+
+        .die:nth-child(1) .dot {
+            grid-area: e;
+        }
+
+        .die:nth-child(2) .dot:nth-child(1) {
+            grid-area: a;
+        }
+        .die:nth-child(2) .dot:nth-child(2) {
+            grid-area: i;
+        }
+
+        .die:nth-child(3) .dot:nth-child(1) {
+            grid-area: a;
+        }
+        .die:nth-child(3) .dot:nth-child(2) {
+            grid-area: e;
+        }
+        .die:nth-child(3) .dot:nth-child(3) {
+            grid-area: i;
+        }
+
+        .die:nth-child(4) .dot:nth-child(1) {
+            grid-area: a;
+        }
+        .die:nth-child(4) .dot:nth-child(2) {
+            grid-area: c;
+        }
+        .die:nth-child(4) .dot:nth-child(3) {
+            grid-area: g;
+        }
+        .die:nth-child(4) .dot:nth-child(4) {
+            grid-area: i;
+        }
+
+        .die:nth-child(5) .dot:nth-child(1) {
+            grid-area: a;
+        }
+        .die:nth-child(5) .dot:nth-child(2) {
+            grid-area: c;
+        }
+        .die:nth-child(5) .dot:nth-child(3) {
+            grid-area: e;
+        }
+        .die:nth-child(5) .dot:nth-child(4) {
+            grid-area: g;
+        }
+        .die:nth-child(5) .dot:nth-child(5) {
+            grid-area: i;
+        }
+
+        .die:nth-child(6) .dot:nth-child(1) {
+            grid-area: a;
+        }
+        .die:nth-child(6) .dot:nth-child(2) {
+            grid-area: c;
+        }
+        .die:nth-child(6) .dot:nth-child(3) {
+            grid-area: d;
+        }
+        .die:nth-child(6) .dot:nth-child(4) {
+            grid-area: f;
+        }
+        .die:nth-child(6) .dot:nth-child(5) {
+            grid-area: g;
+        }
+        .die:nth-child(6) .dot:nth-child(6) {
+            grid-area: i;
+        }
