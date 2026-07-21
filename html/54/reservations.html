@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+
+    <link rel="stylesheet" href="reservations.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Book a Table</h1>
+
+    
+    <form method="post">
+        <label>first name:
+            <input type="text" name="first"/>
+        </label>
+        <br><br>
+
+        <label for="last">last name:</label>
+        <input type="text" name="last" id="last" />
+        <br><br>
+
+        <label for="date">date:</label>
+        <input type="date" name="date" id="date" />
+        <br><br>
+
+        <label for="time">time:</label>
+        <input type="time" name="time" id="time" />
+        <br><br>
+
+        <label for="guests">guests:</label>
+        <input type="number" name="guests" id="guests" min="1" max="20" />
+        <br><br>
+
+        <label for="comments">special requests:</label><br>
+        <textarea name="comments" id="comments" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <input type="submit" value="Reserve Table">
+    </form>
+
+    <br>
+   
+    <a href="index.html">Home</a>
+</body>
+</html>

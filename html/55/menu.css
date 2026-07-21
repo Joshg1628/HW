@@ -1,0 +1,144 @@
+/*@import url('restaurant.css');*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2c241b;
+    color: #e6dcc8;
+    text-align: center;
+    background-image: url('images/menubackground.jpg');
+    background-image:
+        linear-gradient(rgba(44, 36, 27, 0.85), rgba(44, 36, 27, 0.85)),
+        url('images/menubackground.jpg');
+    background-repeat: repeat;
+    background-size: 200px;
+    background-position: top left;
+
+}
+
+h1 {
+    color: #bf4a30;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    border: 5px solid #8c3b26;
+    background-color: #1a1510;
+    display: inline-block;
+    padding: 10px 40px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #8c3b26;
+    color: #f5eedc;
+    position: absolute;
+    top: 65px;
+    right: 30px;
+}
+
+a:hover {
+    background-color: #d99c4a;
+    color: #1a1510;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:visited {
+    color: #e2e8e3;
+}
+
+
+img,
+h1,
+a {
+    border-radius: 10px;
+}
+
+.menu-items {
+    text-align: center;
+}
+
+.menu-items li {
+    background-color: #3d3225;
+    color: #e6dcc8;
+    border: 1px solid #5c4b37;
+    size: 1.2em;
+    margin: 10px;
+    padding: 3px;
+    width: fit-content;
+    text-transform: uppercase;
+}
+
+.menu-items img {
+    opacity: 1.2;
+    padding: 3px;
+    border-radius: 5px;
+    border: 2px solid #8c3b26;
+}
+
+.menu-items img:hover {
+    scale: 1.05;
+}
+
+.video-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin-top: 103px;
+}
+
+.video-container video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-container h3 {
+    margin-top: 20px;
+    font-size: 3em;
+    font-weight: 900;
+    color: #bf4a30;
+    letter-spacing: 2px;
+}
+
+
+#main,
+#dessert {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    list-style: none;
+    padding: 0;
+    margin: 0 10px;
+}
+
+#main {
+    text-align: left;
+}
+
+#dessert {
+    text-align: right;
+}
+
+#dessert li {
+    margin-left: auto;
+}
+
+
+@media print {
+    .video-container video {
+        display: none;
+    }
+}
+
+video[src$=".mp4"] {
+    border: 2px solid #8c3b26;
+    border-radius: 10px;
+}
+
+li:last-child {
+    background-color: red;
+}
