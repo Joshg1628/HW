@@ -101,7 +101,7 @@ click(loadContactsButton, async () => { // --------- ------ HW66
         <td>${contact.last}</td>
         <td>${contact.email}</td>
         <td>${contact.phone}</td>
-        <td><button>delete</button></td> // add the delete button for each contact
+        <td><button>delete</button></td> <!-- add the delete button for each contact -->
       `;
     row.querySelector('button').addEventListener('click', () => {
       row.remove();
