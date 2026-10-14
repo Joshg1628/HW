@@ -1,0 +1,26 @@
+[
+    {
+        "first": "John",
+        "last": "Smith",
+        "email": "johnsmith@gmail.com",
+        "phone": "555-123-4567"
+    },
+    {
+        "first": "Sarah",
+        "last": "Johnson",
+        "email": "sarahjohnson@gmail.com",
+        "phone": "555-234-5678"
+    },
+    {
+        "first": "Michael",
+        "last": "Brown",
+        "email": "michael.brown@gmail.com",
+        "phone": "555-345-6789"
+    },
+    {
+        "first": "Emily",
+        "last": "Davis",
+        "email": "emilydavis@gmail.com",
+        "phone": "555-456-7890"
+    }
+]
