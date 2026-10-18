@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Spaghetti Carbonara",
+        "url": "recipes/recipe1.json"
+    },
+    {
+        "id": 2,
+        "name": "Cajun Fish Tacos",
+        "url": "recipes/recipe2.json"
+    },
+    {
+        "id": 3,
+        "name": "Pancakes",
+        "url": "recipes/recipe3.json"
+    }
+]

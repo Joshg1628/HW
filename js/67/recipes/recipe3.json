@@ -1,0 +1,14 @@
+{
+    "id": 3,
+    "name": "Pancakes",
+    "picture": "https://www.themealdb.com/images/media/meals/rwuyqx1511383174.jpg",
+    "ingredients": [
+        "100g flour",
+        "2 large eggs",
+        "300ml milk",
+        "1 tbsp sunflower oil",
+        "Sugar, to serve",
+        "Raspberries, to serve",
+        "Blueberries, to serve"
+    ]
+}

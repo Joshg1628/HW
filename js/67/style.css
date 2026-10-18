@@ -1,0 +1,71 @@
+/* Whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5efe6;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Title with a line under it */
+h1 {
+    font-family: Georgia, serif;
+    color: #8b4513;
+    border-bottom: 3px solid #8b4513;
+    padding-bottom: 10px;
+    max-width: 450px;
+    margin: 20px auto;
+}
+
+/* Dropdown */
+#recipeSelection {
+    font-size: 18px;
+    padding: 10px 15px;
+    border: 2px solid #8b4513;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* White card around the recipe (hidden until a recipe is picked) */
+#recipeDisplaying {
+    display: none;
+    background-color: white;
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#recipeName {
+    font-family: Georgia, serif;
+    color: #8b4513;
+}
+
+/* Recipe picture */
+#recipePic {
+    width: 350px;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Ingredients list: centered, no bullets */
+#recipeIngredients {
+    list-style: none;
+    padding: 0;
+}
+
+#recipeIngredients li {
+    padding: 6px 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    color: #777;
+    font-size: 14px;
+}

@@ -1,0 +1,13 @@
+{
+    "id": 1,
+    "name": "Spaghetti Carbonara",
+    "picture": "https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg",
+    "ingredients": [
+        "320g spaghetti",
+        "6 egg yolks",
+        "150g bacon",
+        "50g pecorino cheese",
+        "Black pepper",
+        "Salt"
+    ]
+}
