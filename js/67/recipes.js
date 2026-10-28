@@ -45,7 +45,7 @@ async function loadRecipe(url) { // 23=
 
 loadRecipelist();
 
-recipeSelection.addEventListener('change', (event) => { // create listener for when dropdown selection changes, catch the selected one and pass into recipe loading function
+recipeSelection.addEventListener('change', (event) => { // create listener for when dropdown ,selection changes, catch the selected one and pass into recipe loading function
     const url = event.target.value;
     if (url) {
         loadRecipe(url);

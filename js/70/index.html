@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. Potato</title>
+    <link rel="stylesheet" href="MPHead.css">
+</head>
+
+<body>
+    <h1>Mr. Potato Head Game</h1>
+    <p>Assemble Mr. Potato Head by dragging and dropping the parts onto the potato body.</p>
+
+
+    <select id="music-select">
+        <option value="spud-bounce.mp3">Spud Bounce</option>
+        <option value="garden-stroll.mp3">Garden Stroll</option>
+        <option value="silly-parade.mp3">Silly Parade</option>
+    </select>
+    <button id="music-toggle">Play music</button>
+
+    <button id="reset-pieces">Reset pieces</button>
+
+
+    <div id="potato-body">
+        <img src="img/potato-body-1.png" alt="Potato Body">
+    </div>
+    <div id="parts">
+        <div id="eyes">
+            <img class="part" src="img/eyes-1.png" alt="Eyes">
+            <img class="part" src="img/eyes-2.png" alt="Eyes">
+            <img class="part" src="img/eyes-blue.png" alt="Eyes">
+        </div>
+        <div id="nose">
+            <img class="part" src="img/nose-orange.png" alt="Nose">
+            <img class="part" src="img/nose-red.png" alt="Nose">
+        </div>
+        <div id="mouth">
+            <img class="part" src="img/teeth-smile.png" alt="Mouth">
+            <img class="part" src="img/mustache-mouth.png" alt="Mouth">
+            <img class="part" src="img/lips-red.png" alt="Mouth">
+        </div>
+        <div id="ears">
+            <img class="part" src="img/ear-left.png" alt="Ears">
+            <img class="part" src="img/ear-right.png" alt="Ears">
+        </div>
+        <div id="glasses">
+            <img class="part" src="img/disguise-glasses.png" alt="Glasses">
+            <img class="part" src="img/glasses-red.png" alt="Glasses">
+        </div>
+
+    </div>
+
+    <script src="MPHead.js"></script>
+</body>
+
+</html>
